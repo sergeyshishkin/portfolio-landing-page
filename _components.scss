@@ -1,0 +1,27 @@
+.send-button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+
+  @media screen and (max-width: $deviceviewport) {
+    width: 316px;
+  }
+}
+
+.social-button {
+  width: 39px;
+  height: 40px;
+  margin: 0 30px;
+
+  @media screen and (max-width: $deviceviewport) {
+    margin: 0 20px;
+  }
+}
