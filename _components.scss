@@ -25,3 +25,34 @@
     margin: 0 20px;
   }
 }
+.program__item {
+  text-align: center;
+
+  width: 166px;
+  height: 206px;
+  margin-bottom: 114px;
+  position: relative;
+
+  @media screen and (max-width: $deviceviewport) {
+    margin-bottom: 85px;
+  }
+
+  .program__name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #828282;
+    margin-top: 26px;
+    margin-bottom: 0;
+  }
+
+  .program__stars {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    width: 166px;
+    position: absolute;
+    bottom: 0;
+  }
+}
